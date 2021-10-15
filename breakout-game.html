@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Breakout H5 Game</title>
+  <script type="module" async defer src="./breakout-game.js"></script>
+  <style>
+    #canvas {
+      border: 1px solid grey;
+      cursor: pointer;
+    }
+    .container {
+      position: relative;
+      margin-top: 300px;
+      margin-left: 300px;
+    }
+    button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button id="btn">Start</button>
+    <canvas width="800" height="600" id="canvas"></canvas>
+  </div>
+  <script>
+    console.log('end body script call')
+  </script>
+</body>
+</html>
