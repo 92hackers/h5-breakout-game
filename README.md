@@ -1,1 +1,1 @@
-# h5-breakout-game
+# The game: Breakout
